@@ -1,12 +1,12 @@
-setwd('C:\\Users\\owusu.sarpong\\OneWorkplace\\OMD-Audience Analytics OMDUK - General\\Client Work\\Google\\Google MRF\\2021.11 Waze')
+setwd('SET WD')
 
-source('C:\\Users\\owusu.sarpong\\OneWorkplace\\OMD-Audience Analytics OMDUK - General\\Client Work\\Google\\Google MRF\\2021.06 Google Nordics\\Code\\UserDefinedFunctions\\MRF_UserDefined_Functions.R')
+source('SOURCE TO UDF')
 
 library(haven)
 library(dplyr)
 library(DT)
 
-df <- read_sav('ORD-656067-T3L1_SPSS_Data.sav')
+df <- read_sav('sav file')
 
 # Extract the columns names and description for easy navigation 
 questbook <- CreateQuestBook(df)
